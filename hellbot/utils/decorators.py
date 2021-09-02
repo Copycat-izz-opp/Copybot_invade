@@ -296,4 +296,4 @@ def command(**args):
 
     return decorator
 
-# hellbot
+# copycat bot
