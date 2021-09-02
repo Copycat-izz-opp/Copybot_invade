@@ -74,7 +74,7 @@ def load_module(shortname):
         spec.loader.exec_module(mod)
         # for imports
         sys.modules["hellbot.plugins." + shortname] = mod
-        LOGS.info("⚡ Hêllẞø† ⚡ - Successfully Imported " + shortname)
+        LOGS.info("⚡ ¢σρу¢αт вσт ⚡ - Successfully Imported " + shortname)
 
 
 # remove plugins
@@ -95,4 +95,4 @@ def remove_plugin(shortname):
     except BaseException:
         raise ValueError
 
-# hellbot
+# copycat bot
