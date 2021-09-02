@@ -42,17 +42,17 @@ else:
 
 START_TIME = datetime.datetime.now()
 uptime = f"{str(datetime.datetime.now() - START_TIME).split('.')[0]}"
-my_channel = Config.MY_CHANNEL or "Its_HellBot"
-my_group = Config.MY_GROUP or "HellBot_Chat"
+my_channel = Config.MY_CHANNEL or "Copycat_Userbot"
+my_group = Config.MY_GROUP or "Lovers_Match"
 if "@" in my_channel:
     my_channel = my_channel.replace("@", "")
 if "@" in my_group:
     my_group = my_group.replace("@", "")
 
-chnl_link = "https://t.me/its_hellbot"
-hell_channel = f"[†hê Hêllẞø†]({chnl_link})"
-grp_link = "https://t.me/HellBot_Chat"
-hell_grp = f"[Hêllẞø† Group]({grp_link})"
+chnl_link = "https://t.me/Copycat_Userbot"
+hell_channel = f"[†hê ¢σρу¢αт вσт]({chnl_link})"
+grp_link = "https://t.me/Lovers_Match"
+hell_grp = f"[¢σρу¢αт вσт ]({grp_link})"
 
 WELCOME_FORMAT = """**Use these fomats in your welcome note to make them attractive.**
   {mention} :  To mention the user
@@ -71,4 +71,4 @@ WELCOME_FORMAT = """**Use these fomats in your welcome note to make them attract
 """
 # will add more soon
 
-# hellbot
+# copycatbot
