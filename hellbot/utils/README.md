@@ -1,1 +1,1 @@
-# Here We Handle Basic Utilities Required For HellBot
+# Here We Handle Basic Utilities Required For Copycat Bot
