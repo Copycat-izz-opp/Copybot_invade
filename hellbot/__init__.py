@@ -76,4 +76,4 @@ AFKREASON = None
 SUDO_LIST = {}
 
 
-# hellbot
+# ¢σρу¢αт вσт
