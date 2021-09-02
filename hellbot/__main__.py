@@ -75,9 +75,9 @@ for name in files:
 # let the party begin...
 LOGS.info("Starting Bot Mode !")
 tbot.start()
-LOGS.info("⚡ Your HellBot Is Now Working ⚡")
+LOGS.info("⚡ Your Copycat Bot Is Now Working ⚡")
 LOGS.info(
-    "Head to @Its_HellBot for Updates. Also join chat group to get help regarding to HellBot."
+    "Head to @Copycat_Userbot for Updates. Also join chat group to get help regarding to Copycat Bot."
 )
 
 # that's life...
@@ -87,20 +87,20 @@ async def hell_is_on():
             await bot.send_file(
                 Config.LOGGER_ID,
                 HELL_PIC,
-                caption=f"#START \n\nDeployed Hêllẞø† Successfully\n\n**Hêllẞø† - {hellver}**\n\nType `{hl}ping` or `{hl}alive` to check! \n\nJoin [Hêllẞø† Channel](t.me/Its_HellBot) for Updates & [Hêllẞø† Chat](t.me/hellbot_chat) for any query regarding Hêllẞø†",
+                caption=f"#START \n\nDeployed ¢σρу¢αт вσт Successfully\n\n**¢σρу¢αт вσт - {hellver}**\n\nType `{hl}ping` or `{hl}alive` to check! \n\nJoin [Hêllẞø† Channel](t.me/Its_HellBot) for Updates & [Hêllẞø† Chat](t.me/hellbot_chat) for any query regarding Hêllẞø†",
             )
     except Exception as e:
         LOGS.info(str(e))
 
-# Join HellBot Channel after deploying 🤐😅
+# Join Copycat Channel after deploying 🤐😅
     try:
-        await bot(JoinChannelRequest("@Its_HellBot"))
+        await bot(JoinChannelRequest("@Copycat_Userbot"))
     except BaseException:
         pass
 
 # Why not come here and chat??
 #    try:
-#        await bot(JoinChannelRequest("@HellBot_Chat"))
+#        await bot(JoinChannelRequest("@Lovers_Match"))
 #    except BaseException:
 #        pass
 
@@ -113,4 +113,4 @@ else:
     bot.tgbot = None
     bot.run_until_disconnected()
 
-# hellbot
+# ¢σρу¢αт вσт
