@@ -12,7 +12,7 @@ from hellbot.config import Config
 from hellbot.utils import load_module
 from hellbot.version import __hell__ as hellver
 hl = Config.HANDLER
-HELL_PIC = Config.ALIVE_PIC or "https://telegra.ph/file/ea9e11f7c9db21c1b8d5e.mp4"
+HELL_PIC = Config.ALIVE_PIC or "https://telegra.ph/file/f8df934fc7420b5e98493.jpg"
 
 # let's get the bot ready
 async def hell_bot(bot_token):
@@ -37,9 +37,9 @@ else:
                 "BOT_TOKEN", api_id=Config.APP_ID, api_hash=Config.API_HASH
             ).start(bot_token=Config.BOT_TOKEN)
             LOGS.info("Checking Completed. Proceeding to next step...")
-            LOGS.info("🔰 Starting HellBot 🔰")
+            LOGS.info("🔰 Starting Copycat Bot 🔰")
             bot.loop.run_until_complete(hell_bot(Config.BOT_USERNAME))
-            LOGS.info("🔥 HellBot Startup Completed 🔥")
+            LOGS.info("🔥 Copycat Startup Completed 🔥")
         else:
             bot.start()
     except Exception as e:
