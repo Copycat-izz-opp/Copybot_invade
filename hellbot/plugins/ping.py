@@ -13,12 +13,12 @@ async def pong(hell):
     end = datetime.datetime.now()
     ms = (end - start).microseconds / 1000
     await event.edit(
-        f"╚»•✮ ℘ơŋɠ  ✮•«╝\n\n    ⚘  `{ms}`\n    ⚘  __**Oɯɳҽɾ**__ **:**  {hell_mention}"
+        f"╚»•✮ ℘ơŋɠ  ✮•«╝\n\n    ⚘  `{ms}`\n    ⚘  __**σωηεɾ**__ **:**  {hell_mention}"
     )
 
 
 CmdHelp("ping").add_command(
-  "ping", None, "Checks the ping speed of your Hêllẞø†"
+  "ping", None, "Checks the ping speed of your ¢σρу¢αт вσт"
 ).add_warning(
   "✅ Harmless Module"
 ).add()
