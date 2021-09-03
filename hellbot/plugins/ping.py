@@ -9,11 +9,11 @@ async def pong(hell):
     if hell.fwd_from:
         return
     start = datetime.datetime.now()
-    event = await eor(hell, "`·.·★ ℘ıŋɠ ★·.·´")
+    event = await eor(hell, "`·.·✦҈͜͡➳ Թίηɡ 🔥·.·´")
     end = datetime.datetime.now()
     ms = (end - start).microseconds / 1000
     await event.edit(
-        f"╰•★★  ℘ơŋɠ ★★•╯\n\n    ⚘  `{ms}`\n    ⚘  __**Oɯɳҽɾ**__ **:**  {hell_mention}"
+        f"╚»•✮ ℘ơŋɠ  ✮•«╝\n\n    ⚘  `{ms}`\n    ⚘  __**Oɯɳҽɾ**__ **:**  {hell_mention}"
     )
 
 
@@ -23,4 +23,4 @@ CmdHelp("ping").add_command(
   "✅ Harmless Module"
 ).add()
 
-# hellbot
+# copycat
