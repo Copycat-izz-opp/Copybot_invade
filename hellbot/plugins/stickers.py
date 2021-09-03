@@ -101,11 +101,11 @@ async def kang(args):
                 # pack
                 emoji = splat[1]
 
-        packname = f"Hellbot_{un_}_{pack}"
+        packname = f"Copycat_{un_}_{pack}"
         packnick = (
-            f"{hellbot} Vol.{pack}"
-            if hellbot
-            else f"{un}'s Hêllẞø† Vol.{pack}"
+            f"{Copycat} Vol.{pack}"
+            if Copycat
+            else f"{un}'s ¢σρу¢αт вσт Vol.{pack}"
         )
         cmd = "/newpack"
         file = io.BytesIO()
@@ -137,11 +137,11 @@ async def kang(args):
                 x = await conv.get_response()
                 while "120" in x.text:
                     pack += 1
-                    packname = f"HellBot_{un_}_pack_{pack}"
+                    packname = f"Copycat_{un_}_pack_{pack}"
                     packnick = (
-                        f"{hellbot} Vol.{pack}"
-                        if hellbot
-                        else f"{un}'s Hêllẞø† Vol.{pack}"
+                        f"{Copycat} Vol.{pack}"
+                        if Copycat
+                        else f"{un}'s ¢σρу¢αт вσт Vol.{pack}"
                     )
                     await hell.edit(
                         "`Switching to Pack "
@@ -437,7 +437,7 @@ async def _(event):
     if not rply:
         return await eod(hel_, "`Reply to a stciker to kang that pack.`")
     if hell == "":
-        pname = f"{un}'s Hêllẞø† Pack"
+        pname = f"{un}'s ¢σρу¢αт вσт Pack"
     else:
         pname = hell
     if rply and rply.media and rply.media.document.mime_type == "image/webp":
@@ -472,7 +472,7 @@ async def _(event):
                 functions.stickers.CreateStickerSetRequest(
                     user_id=ForGo10God,
                     title=pname,
-                    short_name=f"hell_{un_}_V{pack}_by_{bot_un}",
+                    short_name=f"copy_{un_}_V{pack}_by_{bot_un}",
                     stickers=stcrs,
                 )
             )
@@ -485,7 +485,7 @@ async def _(event):
                 functions.stickers.CreateStickerSetRequest(
                     user_id=ForGo10God,
                     title=pname,
-                    short_name=f"hell_{un_}_V{pack}_by_{bot_un}",
+                    short_name=f"copy_{un_}_V{pack}_by_{bot_un}",
                     stickers=stcrs,
                 )
             )
