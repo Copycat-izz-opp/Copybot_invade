@@ -9,14 +9,14 @@ from . import *
 from hellbot.sql import pmpermit_sql as pm_sql
 
 
-WARN_PIC = Config.PMPERMIT_PIC or "https://telegra.ph/file/58df4d86400922aa32acd.jpg"
+WARN_PIC = Config.PMPERMIT_PIC or "https://telegra.ph/file/f8df934fc7420b5e98493.jpg"
 PM_WARNS = {}
 PREV_REPLY_MESSAGE = {}
 PM_ON_OFF = Config.PM_PERMIT
 CSTM_PMP = Config.CUSTOM_PMPERMIT or "**You Have Trespassed To My Master's PM!\nThis Is Illegal And Regarded As Crime.**"
 HELL_ZERO = "Go get some sleep retard. \n\n**Blocked !!**"
 HELL_FIRST = (
-    "**🔥 Hêllẞø† Prîvã†é Sêçürïty Prø†öçõl 🔥**\n\nThis is to inform you that "
+    "**🔥 ¢σρу¢αт вσт Prîvã†é Sêçürïty Prø†öçõl 🔥**\n\nThis is to inform you that "
     "{} is currently unavailable.\nThis is an automated message.\n\n"
     "{}\n\n**Please Choose Why You Are Here!!**".format(hell_mention, CSTM_PMP)
 )
