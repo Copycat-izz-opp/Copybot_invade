@@ -40,13 +40,13 @@ msg = f"""
 """
 botname = Config.BOT_USERNAME
 
-@bot.on(hell_cmd(pattern="hell$"))
-@bot.on(sudo_cmd(pattern="hell$", allow_sudo=True))
+@bot.on(hell_cmd(pattern="cat$"))
+@bot.on(sudo_cmd(pattern="cat$", allow_sudo=True))
 async def hell_a(event):
     try:
         hell = await bot.inline_query(botname, "alive")
         await hell[0].click(event.chat_id)
-        if event.sender_id == ForGo10God:
+        if event.sender_id == My_Love_Coming_Near:
             await event.delete()
     except (noin, dedbot):
         await eor(event, msg)
@@ -55,7 +55,7 @@ async def hell_a(event):
 CmdHelp("alive").add_command(
   "alive", None, "Shows the Default Alive Message"
 ).add_command(
-  "hell", None, "Shows Inline Alive Menu with more details."
+  "cat", None, "Shows Inline Alive Menu with more details."
 ).add_warning(
   "✅ Harmless Module"
 ).add()
