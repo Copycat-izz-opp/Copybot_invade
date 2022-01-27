@@ -10,8 +10,7 @@ msg = f"""
 **⚡ ʟɛɢɛռɖaʀʏ ᴀғ ¢σρу¢αт вσт� ⚡**
 
   •        [📑 Repo 📑](https://github.com/Copycat-izz-opp/Copycat_Main_Bot)
-  •      
-  •  ©️ {hell_channel} ™
+
 """
 botname = Config.BOT_USERNAME
 
