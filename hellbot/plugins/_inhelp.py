@@ -19,7 +19,7 @@ from . import *
 
 hell_row = Config.BUTTONS_IN_HELP
 hell_emoji = Config.EMOJI_IN_HELP
-hell_pic = Config.PMPERMIT_PIC or "https://telegra.ph/file/58df4d86400922aa32acd.jpg"
+hell_pic = Config.PMPERMIT_PIC or "https://telegra.ph/file/b0a42f114048d20c71f4c.jpg"
 cstm_pmp = Config.CUSTOM_PMPERMIT
 ALV_PIC = Config.ALIVE_PIC
 help_pic = Config.HELP_PIC or "https://te.legra.ph/file/64fa07b3863983e55273f.jpg"
