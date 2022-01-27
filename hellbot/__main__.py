@@ -87,7 +87,7 @@ async def hell_is_on():
             await bot.send_file(
                 Config.LOGGER_ID,
                 HELL_PIC,
-                caption=f"#START \n\nDeployed ¢σρу¢αт вσт Successfully\n\n**¢σρу¢αт вσт - {hellver}**\n\nType `{hl}ping` or `{hl}alive` to check! \n\nJoin [Hêllẞø† Channel](t.me/Its_HellBot) for Updates & [Hêllẞø† Chat](t.me/hellbot_chat) for any query regarding Hêllẞø†",
+                caption=f"#START \n\nDeployed ¢σρу¢αт вσт Successfully\n\n**¢σρу¢αт вσт - {hellver}**\n\nType `{hl}ping` or `{hl}alive` to check! \n\nJoin [¢σρу¢αт вσт Channel](t.me/COPYCAT_USERBOT) for Updates & [¢σρу¢αт вσт Chat](t.me/SESSION_GROUPS) for any query regarding ¢σρу¢αт вσт",
             )
     except Exception as e:
         LOGS.info(str(e))
@@ -100,7 +100,7 @@ async def hell_is_on():
 
 # Why not come here and chat??
 #    try:
-#        await bot(JoinChannelRequest("@Lovers_Match"))
+#        await bot(JoinChannelRequest("@SESSION_GROUPS"))
 #    except BaseException:
 #        pass
 
