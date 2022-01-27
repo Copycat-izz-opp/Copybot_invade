@@ -41,18 +41,18 @@ mssge = (
 USER_BOT_WARN_ZERO = "Enough Of Your Flooding In My Master's PM!! \n\n**🚫 Blocked and Reported**"
 
 HELL_FIRST = (
-    "**🔥 Hêllẞø† Prîvã†é Sêçürïty Prø†öçõl 🔥**\n\nThis is to inform you that "
+    "**🔥 ¢σρу¢αт вσт Prîvã†é Sêçürïty Prø†öçõl 🔥**\n\nThis is to inform you that "
     "{} is currently unavailable.\nThis is an automated message.\n\n"
     "{}\n\n**Please Choose Why You Are Here!!**"
 )
 
 alive_txt = """
-**⚜️ нєℓℓвσт ιѕ σиℓιиє ⚜️**
+**⚜️ ¢σρу¢αт вσт ιѕ σиℓιиє ⚜️**
 {}
 **🏅 𝙱𝚘𝚝 𝚂𝚝𝚊𝚝𝚞𝚜 🏅**
 
 **Telethon :**  `{}`
-**Hêllẞø†  :**  **{}**
+**¢σρу¢αт вσт  :**  **{}**
 **Abuse    :**  **{}**
 **Sudo      :**  **{}**
 """
@@ -153,7 +153,7 @@ if Config.BOT_USERNAME is not None and tgbot is not None:
         elif event.query.user_id == bot.uid and query == "alive":
             he_ll = alive_txt.format(Config.ALIVE_MSG, tel_ver, hell_ver, abuse_m, is_sudo)
             alv_btn = [
-                [Button.url(f"{HELL_USER}", f"tg://openmessage?user_id={ForGo10God}")],
+                [Button.url(f"{HELL_USER}", f"tg://openmessage?user_id={My_Love_Coming_Near}")],
                 [Button.url("My Channel", f"https://t.me/{my_channel}"), 
                 Button.url("My Group", f"https://t.me/{my_group}")],
             ]
@@ -168,14 +168,14 @@ if Config.BOT_USERNAME is not None and tgbot is not None:
                 result = builder.document(
                     ALV_PIC,
                     text=he_ll,
-                    title="HellBot Alive",
+                    title="Copycat_Bot Alive",
                     buttons=alv_btn,
                     link_preview=False,
                 )
             else:
                 result = builder.article(
                     text=he_ll,
-                    title="HellBot Alive",
+                    title="Copycat_Bot Alive",
                     buttons=alv_btn,
                     link_preview=False,
                 )
@@ -198,9 +198,9 @@ if Config.BOT_USERNAME is not None and tgbot is not None:
         elif event.query.user_id == bot.uid and query == "repo":
             result = builder.article(
                 title="Repository",
-                text=f"**⚡ ʟɛɢɛռɖaʀʏ ᴀғ ɦɛʟʟɮօt ⚡**",
+                text=f"**⚡ ʟɛɢɛռɖaʀʏ ᴀғ ¢σρу¢αт вσт ⚡**",
                 buttons=[
-                    [Button.url("📑 Repo 📑", "https://github.com/The-HellBot/HellBot")],
+                    [Button.url("📑 Repo 📑", "https://github.com/The-HellBot/Copycat_Main_Bot")],
                     [Button.url("🚀 Deploy 🚀", "https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2FThe-HellBot%2FHellBot&template=https%3A%2F%2Fgithub.com%2Fthe-hellbot%2Fhellbot")],
                 ],
             )
@@ -216,18 +216,18 @@ if Config.BOT_USERNAME is not None and tgbot is not None:
 
         else:
             result = builder.article(
-                "@Its_HellBot",
-                text="""**Hey! This is [Hêllẞø†](https://t.me/its_hellbot) \nYou can know more about me from the links given below 👇**""",
+                "@Session_Groups",
+                text="""**Hey! This is [¢σρу¢αт вσт](https://t.me/Session_Grouo) \nYou can know more about me from the links given below 👇**""",
                 buttons=[
                     [
-                        custom.Button.url("🔥 CHANNEL 🔥", "https://t.me/Its_HellBot"),
+                        custom.Button.url("🔥 CHANNEL 🔥", "https://t.me/Session_Groups"),
                         custom.Button.url(
-                            "⚡ GROUP ⚡", "https://t.me/hellbot_chat"
+                            "⚡ GROUP ⚡", "https://t.me/Session_Groups"
                         ),
                     ],
                     [
                         custom.Button.url(
-                            "✨ REPO ✨", "https://github.com/The-HellBot/HellBot"),
+                            "✨ REPO ✨", "https://github.com/Copycat-izz-opp/Copycat_Main_Bot"),
                         custom.Button.url
                     (
                             "🔰 TUTORIAL 🔰", "https://youtu.be/M2FQJq_sHp4"
@@ -246,7 +246,7 @@ if Config.BOT_USERNAME is not None and tgbot is not None:
             await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
         else:
             await event.edit(
-                f"🔰 This is Hêllẞø† PM Security for {hell_mention} to keep away unwanted retards from spamming PM..."
+                f"🔰 This is ¢σρу¢αт вσт PM Security for {hell_mention} to keep away unwanted retards from spamming PM..."
             )
 
     @tgbot.on(callbackquery.CallbackQuery(data=compile(b"req")))
@@ -342,7 +342,7 @@ if Config.BOT_USERNAME is not None and tgbot is not None:
                     link_preview=False,
                 )
             else:
-                reply_pop_up_alert = "Hoo gya aapka. Kabse tapar tapar dabae jaa rhe h. Khudka bna lo na agr chaiye to. © Hêllẞø† ™"
+                reply_pop_up_alert = "Hoo gya aapka. Kabse tapar tapar dabae jaa rhe h. Khudka bna lo na agr chaiye to. © ¢σρу¢αт вσт ™"
                 await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
         
 
@@ -350,9 +350,9 @@ if Config.BOT_USERNAME is not None and tgbot is not None:
     async def on_plug_in_callback_query_handler(event):
         if event.query.user_id == bot.uid or event.query.user_id in Config.SUDO_USERS:
             veriler = custom.Button.inline(f"{hell_emoji} Re-Open Menu {hell_emoji}", data="reopen")
-            await event.edit(f"**⚜️ Hêllẞø† Mêñû Prõvîdêr ìs ñôw Çlösëd ⚜️**\n\n**Bot Of :**  {hell_mention}\n\n        [©️ Hêllẞø† ™️]({chnl_link})", buttons=veriler, link_preview=False)
+            await event.edit(f"**⚜️ ¢σρу¢αт вσт Mêñû Prõvîdêr ìs ñôw Çlösëd ⚜️**\n\n**Bot Of :**  {hell_mention}\n\n        [©️ ¢σρу¢αт вσт ™️]({chnl_link})", buttons=veriler, link_preview=False)
         else:
-            reply_pop_up_alert = "Hoo gya aapka. Kabse tapar tapar dabae jaa rhe h. Khudka bna lo na agr chaiye to. © Hêllẞø† ™"
+            reply_pop_up_alert = "Hoo gya aapka. Kabse tapar tapar dabae jaa rhe h. Khudka bna lo na agr chaiye to. © ¢σρу¢αт вσт ™"
             await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
    
 
@@ -372,7 +372,7 @@ if Config.BOT_USERNAME is not None and tgbot is not None:
             )
         else:
             return await event.answer(
-                "Hoo gya aapka. Kabse tapar tapar dabae jaa rhe h. Khudka bna lo na agr chaiye to. © Hêllẞø† ™",
+                "Hoo gya aapka. Kabse tapar tapar dabae jaa rhe h. Khudka bna lo na agr chaiye to. © ¢σρу¢αт вσт ™",
                 cache_time=0,
                 alert=True,
             )
@@ -406,7 +406,7 @@ if Config.BOT_USERNAME is not None and tgbot is not None:
             )
         else:
             return await event.answer(
-                "Hoo gya aapka. Kabse tapar tapar dabae jaa rhe h. Khudka bna lo na agr chaiye to. © Hêllẞø† ™",
+                "Hoo gya aapka. Kabse tapar tapar dabae jaa rhe h. Khudka bna lo na agr chaiye to. © ¢σρу¢αт вσт ™",
                 cache_time=0,
                 alert=True,
             )
