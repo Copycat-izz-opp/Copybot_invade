@@ -10,8 +10,7 @@ msg = f"""
 **⚡ ʟɛɢɛռɖaʀʏ ᴀғ ¢σρу¢αт вσт� ⚡**
 
   •        [📑 Repo 📑](https://github.com/Copycat-izz-opp/Copycat_Main_Bot)
-  •        [🚀 Deploy 🚀](https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2FThe-HellBot%2FHellBot&template=https%3A%2F%2Fgithub.com%2Fthe-hellbot%2Fhellbot)
-
+  •      
   •  ©️ {hell_channel} ™
 """
 botname = Config.BOT_USERNAME
